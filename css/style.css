@@ -1,0 +1,54 @@
+.gradient-background {
+  background: linear-gradient(300deg,#429e82, #4a9b9b, #428eac);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  padding: .25rem 0 .25rem 0;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hdisplay {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.bg-body {
+  width: auto; 
+  height: auto;
+  border-radius: 21px 21px 21px 21px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  padding-bottom: 24px;
+}
+
+.bg-body li {
+  font-size: 20px;
+  list-style-type: square;
+  padding: 0 0 6px 0;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.home-footer {
+  margin: 24px;
+  text-align: center;
+}

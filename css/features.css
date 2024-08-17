@@ -1,0 +1,10 @@
+.home-footer {
+  margin: 24px;
+  text-align: center;
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  padding: .25rem 0 .25rem 0;
+}

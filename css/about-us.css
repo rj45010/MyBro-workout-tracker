@@ -1,0 +1,38 @@
+.home-header {
+  display: flex;
+  justify-content: center;
+  padding: .25rem 0 .25rem 0;
+  border-bottom: solid;
+  border-radius: 15px;
+  padding: 6px 15px 6px 15px;
+}
+
+body{
+  display: grid;
+  grid-template-rows: 15% 70% 6% 9%;
+  height: 100vh;
+}
+
+#content div {
+  display: flex;
+  flex-direction: column;
+  float:inline-start;
+  padding: 24px 0 24px 0;
+}
+
+.tagline {
+  display: flex;
+  flex-direction: row;
+  align-items:end;
+  justify-content: center;
+  margin-bottom: -33px;
+}
+
+.home-footer {
+  border-top: solid;
+  margin: 24px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 6px 15px 6px 15px;
+}
+

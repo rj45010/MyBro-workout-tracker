@@ -1,0 +1,70 @@
+.home-header {
+  display: flex;
+  justify-content: center;
+  padding: .25rem 0 .25rem 0;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+td input[type="text"], td input[type="number"] {
+  width: auto;
+  max-width: 150px;
+  border: 0.6px solid black;
+  border-radius: 6px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.add-exercise {
+  color: black;
+  background-color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-exercise:hover {
+  background-color: rgb(213, 212, 212);
+}
+
+.delete-button {
+  font-size: 0.9em;
+  color: white;
+  background-color: #c82333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: white;
+  color: #c82333;
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 33px;
+}
+
+.day-container {
+  margin-bottom: 30px;
+}
+
+.day-header {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 33px;
+}
