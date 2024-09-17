@@ -127,21 +127,5 @@ function collectWorkoutData() {
 
 // Save button functionality
 document.getElementById('save-btn').addEventListener('click', function() {
-    const data = collectWorkoutData();
-    console.log('Workout Data:', data);
     
-    // Here you would send the data to the server
-    // For example, using fetch:
-    /*
-    fetch('/save-workout', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-    })
-    .then(response => response.json())
-    .then(result => console.log('Save result:', result))
-    .catch(error => console.error('Save error:', error));
-    */
 });
